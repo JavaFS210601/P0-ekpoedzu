@@ -1,15 +1,26 @@
-package com.revature.db;
-
+package com.revature.dao;
+import java.util.List;
 import com.revature.models.Teddy;
 
-public interface TeddyCollectionInterface {
-	//I'm going to write out abstract methods that reflect the methods LegoCollection should have/implement
+public interface TeddyDaoInterface {
 	
-	Teddy[] getAllTeddies(); //this method will show the user all LegoSets in the database
+	//to return a List of all teddies
 	
-	Teddy getTeddyById(int idInput); //this method will return one LegoSet of a given id 
+	public List<Teddy> getTeddies();
 	
-	void addTeddy(Teddy Teddy); //this method will let the user input a new LegoSet into their collection
-	
+	//to take a new Teddy object and add it to the database
+	 public void addTeddy(Teddy ted);
+	 
+	 //to replace teddy's colors by teddy_name
+	 public void replaceColors(String tedName, String teddyColors);
+	 
+	 //to delete an item (teddy)
+	 public void removeTeddy(String tedName); 
+	 
+	 //to return a List of teddies with specific unit price
+	 
+	 public List<Teddy> getTeddyByUnitPrice(int unit_price);
+
+	void removeTeddy(int tId);
 
 }
