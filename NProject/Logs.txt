@@ -1,0 +1,9 @@
+2021-06-29 11:41:48 INFO  Menu:57 - User select all teddies
+2021-06-29 11:43:16 INFO  Menu:57 - User select all teddies
+2021-06-29 11:44:57 INFO  Menu:57 - User select all teddies
+2021-06-29 11:45:44 INFO  Menu:57 - User select all teddies
+2021-06-29 12:02:02 INFO  Menu:57 - User select all teddies
+2021-06-29 12:04:33 INFO  Menu:57 - User select all teddies
+2021-06-29 12:15:04 INFO  Menu:57 - User select all teddies
+2021-06-29 13:33:20 WARN  Menu:143 - User attempted to delete Charlotte
+2021-06-29 13:36:00 WARN  Menu:143 - User attempted to delete Charlotte
